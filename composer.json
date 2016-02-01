@@ -1,0 +1,21 @@
+{
+    "name": "administr/menu",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Miroslav Vitanov",
+            "email": "mvvitanov@gmail.com"
+        }
+    ],
+    "require": {
+		"php": ">=5.5.9"
+	}
+    "require-dev": {
+        "phpunit/phpunit": "4.8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Administr\\": "src/"
+        }
+    }
+}
